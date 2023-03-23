@@ -15,9 +15,14 @@ app.get('/', function(req, res) {
   res.render('pages/index');
 });
 
-// game page
-app.get('/page2', function(req, res) {
-  res.render('pages/page2');
+// about page
+app.get('/about', function(req, res) {
+  res.render('pages/about');
+});
+
+// assignment page
+app.get('/assignment5', function(req, res) {
+  res.render('pages/assignment5');
 });
 
 let PORT = 8010;
