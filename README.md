@@ -1,9 +1,8 @@
-# SWEClassReactionGame
+# SWE Assignment 5
 
-To Install
-
+To install from Dockerfile
 ```
-npm install
-node app.js
+docker build -t my-node-site .
+docker run -p 8010:8010 my-node-site:latest
 ```
-then navigate to ```localhost:8010```
+then navigate to exposed port 8010
